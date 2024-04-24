@@ -1,0 +1,53 @@
+.page-view{
+    text-align: center;
+}
+
+#existing-builds{
+    position: absolute;
+    display: inline-block;
+    left: 0%;
+    right: 50%;
+}
+
+#build-list{
+    position: relative;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.build-list-item {
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    display: block;
+    padding: 10px;
+    height: 50px;
+}
+
+#components-in-build{
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    right: 0%;
+}
+
+.component-list{
+    position: relative;
+    display: block;
+    height: 80%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.component-list-item {
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    display: block;
+    padding: 10px;
+    height: 50px;
+}

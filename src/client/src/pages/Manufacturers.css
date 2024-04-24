@@ -1,0 +1,28 @@
+#existing-manufacturers{
+    position: absolute;
+    display: inline-block;
+    left: 0%;
+    right: 40%;
+}
+
+#add-manufacturer{
+    position: absolute;
+    display: inline-block;
+    left: 60%;
+    right: 0%;
+}
+
+#manufacturer-list{
+    position: relative;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.manufacturer-list-item {
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid orange;
+}

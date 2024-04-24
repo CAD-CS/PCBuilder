@@ -1,0 +1,68 @@
+#tests{
+    position: absolute;
+    display: inline-block;
+    left: 0%;
+    right: 50%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#games{
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+#add-game{
+    position: absolute;
+    display: block;
+    top: 0%;
+    bottom: 90%;
+    right: 0%;
+    left: 0%;
+}  
+
+#games-list{
+    position: absolute;
+    display: block;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 10%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%; 
+}
+
+.games-list-item {
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid orange;
+}
+
+.requirements-list-item {
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid orange;
+}
+
+#tests-list{
+    position: relative;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.test-list-item {
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid orange;
+}

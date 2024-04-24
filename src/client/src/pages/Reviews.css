@@ -1,0 +1,71 @@
+#review-search{
+    position: absolute;
+    display: block;
+    left: 0%;
+    right: 40%;
+    top: 0%;
+    height: 5%;
+}
+
+#existing-reviews{
+    position: absolute;
+    display: inline-block;
+    left: 0%;
+    right: 40%;
+    top: 5%;
+    height: 95%;
+}
+
+#add-review{
+    position: absolute;
+    display: inline-block;
+    left: 60%;
+    right: 0%;
+}
+
+#review-list{
+    position: relative;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.review-list-item {
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid orange;
+}
+
+.review {
+    position: relative;
+    display: block;
+}
+
+h3, h5{
+    margin: 3px 5px;
+    padding: 0;
+}
+
+/*for displaying an existing review*/
+.review-body {
+    position: relative;
+    display: block;
+    border: 1px solid black;
+    height: 150px;
+    overflow: hidden;
+    margin: 5px 5px;
+    background: lightgray;
+    border-radius: 10px;
+}
+
+/*for writing a new reveiw*/
+#review-body{
+   display: block;
+   margin: auto;
+   width: 80%;
+   height: 200px; 
+}

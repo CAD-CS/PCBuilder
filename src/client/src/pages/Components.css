@@ -1,0 +1,112 @@
+#existing-components{
+    position: absolute;
+    display: inline-block;
+    left: 0%;
+    right: 40%;
+    top: 0%;
+    bottom: 67%;
+}
+
+#manufacturersAvgPrice{
+  position: absolute;
+    display: inline-block;
+    left: 0%;
+    right: 40%;
+    top: 33%;
+    bottom: 33%;
+}
+
+#manufacturersMinComponent{
+  position: absolute;
+    display: inline-block;
+    left: 0%;
+    right: 40%;
+    top: 67%;
+    bottom: 0%;
+}
+
+#add-component{
+    position: absolute;
+    display: inline-block;
+    left: 60%;
+    right: 0%;
+    top: 0%;
+    bottom: 50%;
+}
+
+#update-component{
+  position: absolute;
+  display: inline-block;
+  left: 60%;
+  right: 0%;
+  top: 50%;
+  bottom: 0%;
+}
+
+#component-list{
+    position: relative;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 60%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.component-list-item {
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid orange;
+}
+
+#manufacturer-list{
+  position: relative;
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 60%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.manufacturer-list-item {
+  position: relative;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid orange;
+}
+
+#manufacturer-min-list{
+  position: relative;
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 60%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.manufacturer-min-list-item {
+  position: relative;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid orange;
+}
+
+
+/*remove the input bars for number inputs (https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp)*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,25 @@
+#existing-user{
+    position: absolute;
+    display: inline-block;
+    left: 0%;
+    right: 0%;
+    height: 100%;
+}
+
+#user-list{
+    position: relative;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 80%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.user-list-item {
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid orange;
+}

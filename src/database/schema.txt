@@ -1,0 +1,34 @@
+Primary key = *Example*
+Foreign key = -Example-
+
+Manufacturer(*manufacturer_name*, country)
+
+User(*uid*, email, fname, lname, pword)
+
+Game(*game_name*, producer, release_date)
+
+Component_Makes(*cid*, component_name, cost, -manufacturer_name-)
+
+CPU(*-cid-*, speed)
+
+GPU(*-cid-*, cores)
+
+RAM(*-cid-*, capacity)
+
+Build(*bid*, name)
+
+Assembles(*bid*, -manufacturer_name-)
+
+review_wrote_on(*rid*, body, title, -uid-, -bid-)
+
+Is_in(*-cid-*, *-bid-*)
+
+Owns(*-bid-*, *-uid-*)
+
+Requirements_Test(*req_id*, score, *-game_name-*, *-bid-*, passes)
+
+req_min(*-req_id-*, score)
+
+req_avg(*-req_id-*, score)
+
+req_max(*-req_id-*, score)
