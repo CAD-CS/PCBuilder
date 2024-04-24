@@ -12,4 +12,3 @@ Our project is a web app to store information on different pc builds, and provid
 
 - Node.js (Backend)
 
-Milestone 3: https://docs.google.com/document/d/1m0Vh2DHJOWPEiA4I9XD_CkVy2iMQBCejmpZcvCBVcEs/edit
