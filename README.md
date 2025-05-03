@@ -6,9 +6,7 @@ Our project is a web app to store information on different pc builds, and provid
 
 - PostgreSQL (DBMS)
 
-- React (if required), otherwise just HTML/CSS/JS (Frontend)
+- React (frontend)
 
-- JavaScript (Express.js) (Backend)
-
-- Node.js (Backend)
+- NodeJS + ExpressJS (backend)
 
